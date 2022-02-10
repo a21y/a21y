@@ -5,7 +5,7 @@
     </div>
     <div v-for="logo in logos" class="relative z-10 overflow-hidden group">
       <div class="absolute inset-x-0 top-0 h-24 transition-opacity duration-200 ease-out opacity-0 bg-gradient-to-b from-white group-hover:opacity-5"></div>
-      <img :src="logo" alt="" class="w-full transition duration-300 ease-out rounded-sm">
+      <img :src="`/brands/${logo}`" class="w-full transition duration-300 ease-out rounded-sm">
     </div>
   </div>
 </template>
